@@ -4,7 +4,7 @@ import "./styles/Home.css";
 
 function Home() {
     return (
-        <div className='row'>
+        <div className='row container-fluid'>
             <div className='home col-12'>
                 <p className='works col-6'>Design || Build || Develop</p>
                 <p className='statement col-6'>A Frontend web Developer helping people turn their ideas into amazing webpages.</p>

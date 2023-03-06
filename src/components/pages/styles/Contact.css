@@ -1,0 +1,50 @@
+.row h1 {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.row p {
+    text-align: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-icon {
+    width: 112px;
+    height: 112px;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.social-icon img {
+    width: 120px;
+    height: 120px;
+}
+
+.card img {
+    width: 325px;
+    height: 325px;
+}
+
+.container {
+    display: flex;
+
+}
+
+div {
+    display: inline-block;
+}
