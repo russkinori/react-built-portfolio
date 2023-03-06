@@ -1,0 +1,17 @@
+projects-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 18rem;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.container {
+    display: flex;
+
+}

@@ -1,0 +1,29 @@
+.footer {
+  background: #9dd1e9; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px; 
+}
+
+footer .copy {
+  float: left !important;
+}
+
+.nav-item {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.nav-item:hover {
+  box-shadow: 3px snow;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}

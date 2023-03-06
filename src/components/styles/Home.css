@@ -1,0 +1,50 @@
+body {
+    color: #282525;
+    background: linear-gradient
+    (
+    to right,
+    rgba(150, 213, 232, 0.267), 
+    rgba(150, 213, 232, 0.267),
+    url(../Images/logoIcon.png)
+    );
+    height: 100vh;
+    min-height: 80rem;
+    max-height: 120rem;
+    position: relative;
+}
+
+.home {
+    background: rgba(150, 213, 232, 0.267);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 170px;
+    padding: 1rem 5rem;
+    color: #0c0c68;
+    margin-bottom: 20px;
+}
+
+.works {
+    font-size: 76px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.statement {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selfie h1 {
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+
+.selfie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    padding: 1rem 5rem;
+}

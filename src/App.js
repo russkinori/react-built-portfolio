@@ -1,25 +1,26 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from './components/NavTabs';
+import Header from './components/pages/Header';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Blog from './components/pages/Blog';
+import Resume from './components/pages/Resume';
+import Footer from "./components/pages/Footer";
+import ProjectGallery from './components/pages/ProjectGallery';
 import Contact from './components/pages/Contact';
+
 
 function App() {
   return (
     <Router>
       <div>
-        <NavTabs />
+        <Header />
         {/* Wrap Route elements in a Routes component */}
         <Routes basename="react-built-portfolio">
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
           <Route path="react-built-portfolio/" element={<Home />} />
-          <Route path="react-built-portfolio/about" element={<About />} />
-          <Route path="react-built-portfolio/blog" element={<Blog />} />
+          <Route path="react-built-portfolio/resume" element={<Resume />} />
           {/* Define a route that will have descendant routes */}
-          <Route path="react-built-portfolio/contact/*" element={<Contact />} />
+          <Route path="react-built-portfolio/projects/*" element={<ProjectGallery />} />
+          <Route path="react-built-portfolio/contact" element={<Contact />} />
+          <Route path="react-built-portfolio/footer" element={<Footer />} />
         </Routes>
       </div>
     </Router>
@@ -27,4 +28,3 @@ function App() {
 }
 
 export default App;
-
