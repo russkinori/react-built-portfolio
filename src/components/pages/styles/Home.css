@@ -1,23 +1,8 @@
-body {
-    color: #282525;
-    background: linear-gradient
-    (
-    to right,
-    rgba(150, 213, 232, 0.267), 
-    rgba(150, 213, 232, 0.267),
-    url(../Images/logoIcon.png)
-    );
-    height: 100vh;
-    min-height: 80rem;
-    max-height: 120rem;
-    position: relative;
-}
-
 .home {
     background: rgba(150, 213, 232, 0.267);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 170px;
     padding: 1rem 5rem;
     color: #0c0c68;
@@ -25,7 +10,7 @@ body {
 }
 
 .works {
-    font-size: 76px;
+    font-size: 56px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 

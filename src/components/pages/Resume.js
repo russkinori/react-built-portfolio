@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Github.css";
+import "./styles/Github.css";
 
 function Resume() {
   return (

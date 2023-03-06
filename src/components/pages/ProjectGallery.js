@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Project from "./Projects";
 import projects from './Projects.json'
-import '../styles/Projects.css'
+import './styles/Projects.css'
 
 
 
 function ProjectGallery() {
   return (
-    <div>
+    <div className="gallery">
       <h1>Project Gallery</h1>
       <div className="row projects-area">
 

@@ -6,7 +6,7 @@
         "description": "This repo contains an application that can be used to randomly generate a password, based on a selection of options.",
         "deployedLink": "https://russkinori.github.io/pwdgenerator/",
         "githubLink": "https://github.com/russkinori/pwdgenerator",
-        "image": "Images/logoIcon.png"
+        "image": "https://raw.githubusercontent.com/nsisodiya/react-json-viewer/master/pic1.png"
       },
       {
         "id": 2,
