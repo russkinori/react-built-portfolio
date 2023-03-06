@@ -1,5 +1,4 @@
 import React from 'react';
-import selfie from './Images/selfie.png';
 import "./styles/Home.css";
 
 function Home() {
@@ -11,7 +10,7 @@ function Home() {
             </div>
             <div className='selfie'>
                 <section><h1>Hi, I'm Russel Richard.</h1></section>
-                <section><img src={selfie} alt="My selfie" /></section>
+                <section><img src={process.env.PUBLIC_URL + "/Images/selfie.png"} alt="My selfie" /></section>
             </div>
             <div className='row'>
 

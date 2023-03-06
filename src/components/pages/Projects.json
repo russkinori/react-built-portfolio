@@ -6,47 +6,47 @@
         "description": "This repo contains an application that can be used to randomly generate a password, based on a selection of options.",
         "deployedLink": "https://russkinori.github.io/pwdgenerator/",
         "githubLink": "https://github.com/russkinori/pwdgenerator",
-        "image": "https://raw.githubusercontent.com/nsisodiya/react-json-viewer/master/pic1.png"
+        "image": "./Images/pwdgenerator_screenshot.png"
       },
       {
         "id": 2,
-        "title": "Project 2",
-        "description": "Description of project 2.",
-        "deployedLink": "https://project2.com",
-        "githubLink": "https://github.com/project2",
-        "image": "project2.gif"
+        "title": "TeamProfile-Composer",
+        "description": "This repo contains a Node.js command-line application which takes information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
+        "deployedLink": "https://github.com/russkinori/TeamProfile-Composer",
+        "githubLink": "https://github.com/russkinori/TeamProfile-Composer",
+        "image": "./Images/teamprofile-composer-sample.png"
       },
       {
         "id": 3,
-        "title": "Project 3",
-        "description": "Description of project 3.",
-        "deployedLink": "https://project3.com",
-        "githubLink": "https://github.com/project3",
-        "image": "project3.gif"
+        "title": "generatingReadmes",
+        "description": "This repo contains an interactive command-line application that prompts a user for information about an application repository and uses the input to generate a high-quality, professional README.md.",
+        "deployedLink": "https://github.com/russkinori/generatingReadmes",
+        "githubLink": "https://github.com/russkinori/generatingReadmes",
+        "image": "./Images/generating-readmes_screenshot.png"
       },
       {
         "id": 4,
-        "title": "Project 4",
-        "description": "Description of project 2.",
-        "deployedLink": "https://project2.com",
-        "githubLink": "https://github.com/project2",
-        "image": "project2.gif"
+        "title": "Weatha4cast",
+        "description": "This repo contains a weather dashboard with form inputs that allows a user to search for a city.",
+        "deployedLink": "https://russkinori.github.io/Weatha4cast/",
+        "githubLink": "https://github.com/russkinori/Weatha4cast",
+        "image": "./Images/weatha4cast_screenshot.png"
       },
       {
         "id": 5,
-        "title": "Project 5",
-        "description": "Description of project 3.",
-        "deployedLink": "https://project3.com",
-        "githubLink": "https://github.com/project3",
-        "image": "project3.gif"
+        "title": "hour-ly",
+        "description": "This repo contains a simple calendar application that allows a user to save events for each hour of the day.",
+        "deployedLink": "https://github.com/russkinori/hour-ly/deployments/activity_log?environment=github-pages",
+        "githubLink": "https://github.com/russkinori/hour-ly",
+        "image": "./Images/hour-ly_screenshot.png"
       },
       {
         "id": 6,
-        "title": "Project 6",
-        "description": "Description of project 3.",
-        "deployedLink": "https://project3.com",
-        "githubLink": "https://github.com/project3",
-        "image": "project3.gif"
+        "title": "Devint-quiz",
+        "description": "This repo contains an interactive coding challenge containing a series of multiple choice questions.",
+        "deployedLink": "https://russkinori.github.io/Devint-quiz/",
+        "githubLink": "https://github.com/russkinori/Devint-quiz",
+        "image": "./Images/Devint-quiz_screenshot.png"
       }
     ]
   

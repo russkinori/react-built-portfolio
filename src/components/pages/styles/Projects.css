@@ -7,13 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 50px;
+    gap: 20px;
 }
 
 .card{
     padding: 10px;
     margin: 10px;
-    background: #d4f4f5;
+    background: #deebf1;
     border-radius: 2px;
     height: 325px;
     width: 325px;
@@ -24,8 +24,14 @@
 }
 
 .card img {
-    width: 325px;
-    height: 325px;
+    align-self: center;
+    width: 450px;
+    height: 368px;
+}
+
+.card img:hover {
+    transform: scale(1.5);
+    cursor:auto;
 }
 
 .container {

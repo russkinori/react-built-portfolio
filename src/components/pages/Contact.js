@@ -1,10 +1,6 @@
 import React from 'react';
-import { NavLink, Route, Routes } from 'react-router-dom';
-import linkedin from './Images/twitterLogoIcon.png';
-import github from './Images/github_square_icon.png';
-import twitter from './Images/linkedin-logo-icon.png';
-import email from './Images/email_icon.png';
-import Projects from './Projects';
+import { Route, Routes } from 'react-router-dom';
+import Form from "./Form";
 import './styles/Contact.css'
 
 function Contact(props) {
@@ -20,37 +16,30 @@ function Contact(props) {
       <div className='row col-12'>
         <div className="social col-lg-3 col-md-6 col-xs-12">
           <a className="social-icon" href="https://www.linkedin.com/in/russel-richard-6a3125a0">
-            <img src={linkedin} alt='linkedin icon' ></img>
+            <img src={process.env.PUBLIC_URL + "/Images/linkedin-logo-icon.png"} alt='linkedin icon' ></img>
           </a>
         </div>
         <div className="social col-lg-3 col-md-6 col-xs-12">
           <a className="social-icon" href="https://github.com/russkinori">
-            <img src={github} alt='github icon' ></img>
+            <img src={process.env.PUBLIC_URL + "/Images/github_square_icon.png"} alt='github icon' ></img>
           </a>
         </div>
         <div className='social col-lg-3 col-md-6 col-xs-12'>
           <a className="social-icon" href="https://twitter.com/rsslrchrd">
-            <img src={twitter} alt='twitter icon' ></img>
+            <img src={process.env.PUBLIC_URL + "/Images/twitter-logo-icon.png"} alt='twitter icon' ></img>
           </a>
         </div>
         <div className="social col-lg-3 col-md-6 col-xs-12">
           <a className="social-icon" href="mailto:russel.richard@outlook.com">
-            <img src={email} alt='email icon' ></img>
+            <img src={process.env.PUBLIC_URL + "/Images/email_icon.png"} alt='email icon' ></img>
           </a>
         </div>
       </div>
 
-      <Routes>
-        <Route path="projects" element={<Projects />} />
-      </Routes>
-      <div className='row email'>
-        {/* <ul class="social-disc"> */}
-        {/* <li><a href="http://www.twitter.com/AdhamDannaway" target="_blank" class="twitter">Twitter</a></li> */}
-        {/* <li><a href="http://www.facebook.com/ilikeadham" target="_blank" class="facebook">Facebook</a></li> */}
-        {/* <li><a href="http://www.linkedin.com/in/adhamdannaway" target="_blank" class="linkedin">LinkedIn</a></li> */}
-        {/* <li><a href="https://www.instagram.com/adham.dannaway" target="_blank" class="instagram">Instagram</a></li>
-						<!-- <li><a href="http://www.dribbble.com/AdhamDannaway" target="_blank" class="dribbble">Dribbble</a></li> --> */}
-        {/* </ul> */}
+      <div className='row form col-12'>
+        <Routes>
+          <Route path="react-built-portfolio/form" element={<Form />} />
+        </Routes>
       </div>
     </div>
   );
