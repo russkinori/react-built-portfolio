@@ -1,0 +1,168 @@
+
+.resume {
+  display: var(--flex-it);
+  justify-content: var(--center-pos);
+  align-items: var(--center-pos);
+  font-family: Arial, sans-serif;
+
+}
+
+header {
+  text-align: var(--center-pos);
+}
+
+.resume-area {
+  background-color: #87bfed85;
+  box-shadow: var(--shdw-box036999), var(--shdw-box036999);
+}
+
+.skills-container {
+  display: var(--flex-it);
+}
+
+.skillset {
+  display: inline-flex;
+  align-items: var(--center-pos);
+  justify-content: var(--center-pos);
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: var(--center-pos);
+  box-shadow: var(--shdw-box036999), var(--shdw-box036999);
+  text-decoration: none;
+}
+
+
+.skillset:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.summary {
+  display: flex;
+  justify-content: var(--center-pos);
+  align-items: var(--center-pos);
+}
+.summary p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #666;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.resume a {
+  color: #0077cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0077cc;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume a:hover {
+  color: #004466;
+  border-bottom: 1px solid #004466;
+}
+
+.resume p {
+  line-height: 1.5;
+}
+
+.resume section:first-child {
+  margin-top: 0;
+}
+
+.resume section:last-child {
+  margin-bottom: 0;
+}
+
+.resume section:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.resume section:nth-child(odd) {
+  background-color: #fff;
+}
+
+.resume section h2 {
+  border-bottom: 2px solid #666;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.resume section ul {
+  margin-top: 20px;
+}
+
+.resume section ul li {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .resume h1 {
+    font-size: 28px;
+  }
+  
+  .resume p {
+    font-size: 16px;
+  }
+  
+  .resume h2 {
+    font-size: 24px;
+  }
+  
+  .resume h3 {
+    font-size: 20px;
+  }
+  
+  .resume li {
+    font-size: 16px;
+  }
+  
+  .resume section {
+    margin-bottom: 30px;
+  }
+}
+

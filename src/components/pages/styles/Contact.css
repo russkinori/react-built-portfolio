@@ -3,27 +3,17 @@
     text-align: center;
 }
 
-.row p {
+p {
     text-align: center;
-}
-
-.email {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 50px;
 }
 
 .social{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .social-icon {
-    width: 112px;
-    height: 112px;
     padding: 10px;
     border-radius: 2px;
     margin: 1rem;
@@ -35,16 +25,40 @@
     height: 120px;
 }
 
-.card img {
-    width: 325px;
-    height: 325px;
-}
-
-.container {
+.email {
     display: flex;
-
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
 }
 
-div {
-    display: inline-block;
+.form-container {
+    display: flex;
+    justify-content: center;
 }
+
+h2 {
+    align-self: center;
+}
+
+.form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 700px !important;
+  }
+  
+  .form-input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .custom-control {
+    margin-top: 15px;
+  }
+
+  #defaultContactFormCopy {
+    margin-left: 10px;
+  }

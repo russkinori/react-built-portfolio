@@ -53,12 +53,12 @@ function Header() {
         </li>
         {/* <li className="nav-item">
           <NavLink
-            to="react-built-portfolio/projects"
+            to="react-built-portfolio/icons"
             className={({ isActive }) =>
               isActive ? 'nav-link active' : 'nav-link'
             }
           >
-            Contact
+            Icons
           </NavLink>
         </li> */}
       </ul>

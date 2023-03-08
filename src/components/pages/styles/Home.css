@@ -1,35 +1,62 @@
-.home {
-    background: rgba(150, 213, 232, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+/* hero section */
+.hero {
+    background: #96d5e844;
+    display: var(--flex-it);
+    align-items: var(--center-pos);
+    justify-content: space-between;
     height: 170px;
-    padding: 1rem 5rem;
-    color: #0c0c68;
-    margin-bottom: 20px;
+    width: 100%;
+    color: var(--primary-color);
 }
 
-.works {
+.hero p {
+    color: var(--primary-color);
+}
+
+/* self introduction section */
+.self-container {
+    display: var(--flex-it);
+    align-items: var(--center-pos);
+    justify-content: flex-start;
+}
+
+#selfie {
+    height: var(--pixels150);
+    width: var(--pixels150);
+    margin: 10px 20px;
+}
+
+#name {
     font-size: 56px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    text-shadow: var(--txt-shdw3x4blk);
 }
 
+/* key message  */
 .statement {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.selfie h1 {
-    font-size: 70px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 20px;
+/* page contents section */
+.works {
+    font-size: 56px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: var(--txt-center);
+    position: relative;
+    top: 200px;
+    text-shadow: 3px 4px #363738;
 }
 
-.selfie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 800px;
-    padding: 1rem 5rem;
+.works a {
+    color: #f3f3fa;
+    font-weight: bolder;
 }
+
+.home-body {
+    display: flex;
+    justify-content: var(--center-pos);
+}
+

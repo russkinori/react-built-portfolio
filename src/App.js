@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
 import ProjectGallery from './components/pages/ProjectGallery';
 import Contact from './components/pages/Contact';
+import Icons from './components/pages/Icons'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="react-built-portfolio/projects/*" element={<ProjectGallery />} />
           <Route path="react-built-portfolio/contact" element={<Contact />} />
+          {/* <Route path="react-built-portfolio/icons" element={<Icons />} /> */}
         </Routes>
       </div>
     </Router>

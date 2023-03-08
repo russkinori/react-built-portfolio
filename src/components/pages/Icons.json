@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "html",
+        "alt": "html icon",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "image": "./Images/html5_icon.png"
+    },
+        {
+        "id": 2,
+        "name": "css",
+        "alt": "css icon",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "image": "./Images/css3_icon.png"
+    },
+    {
+        "id": 3,
+        "name": "javascript",
+        "alt": "javascript icon",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "icon": "./Images/js_icon.png"
+    },
+    {
+        "id": 4,
+        "name": "git",
+        "alt": "git icon",
+        "link": "https://git-scm.com/",
+        "icon": "./Images/git_icon.png"
+    },
+    {
+        "id": 5,
+        "name": "github",
+        "alt": "github icon",
+        "link": "https://github.com/",
+        "icon": "./Images/github_icon.png"
+    },
+    {
+        "id": 6,
+        "name": "jquery",
+        "alt": "jquery icon",
+        "link": "https://jqueryui.com/",
+        "icon": "./Images/jquery_icon.png"
+    },
+    {
+        "id": 7,
+        "name": "nodejs",
+        "alt": "nodejs icon",
+        "link": "https://nodejs.org/",
+        "icon": "./Images/nodejs_icon.png"
+    },
+    {
+        "id": 8,
+        "name": "react",
+        "alt": "react icon",
+        "link": "https://reactjs.org/",
+        "icon": "./Images/react_icon.png"
+    },
+    {
+        "id": 9,
+        "name": "npm",
+        "alt": "npm icon",
+        "link": "https://www.npmjs.com/",
+        "icon": "./Images/npm_icon.png"
+    },
+    {
+        "id": 10,
+        "name": "nelify",
+        "alt": "nelify icon",
+        "link": "https://netlify.com/",
+        "icon": "./Images/nelify_icon.png"
+    }
+]

@@ -1,37 +1,52 @@
 .gallery h1 {
     margin: 20px 0px 20px 0px;
-    text-align: center;
+    text-align: var(--txt-center);
 }
 
 .projects-area {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+    display: var(--flex-it);
+    justify-content: var(--center-pos);
+    align-items: var(--center-pos);
+    margin-top: 20px;
     gap: 20px;
+    background-color: #89c3f396;
 }
 
 .card{
     padding: 10px;
     margin: 10px;
-    background: #deebf1;
     border-radius: 2px;
-    height: 325px;
-    width: 325px;
     margin: 1rem;
-    position: relative;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
+    box-shadow: var(--shdw-box036999), var(--shdw-box036999);
+    background-color: #008CBA !important;
+
 }
 
 .card img {
     align-self: center;
-    width: 450px;
-    height: 368px;
+     width: 100%;
+    height: 250px;
 }
 
-.card img:hover {
-    transform: scale(1.5);
-    cursor:auto;
+.card-header {
+    background-color: #e1ecef !important;
+    border: 1px;
+    border-radius: 5px;
+}
+.description {
+    color: #efeaea;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: var(--translate-50-50);
+    -ms-transform: var(--translate-50-50);
+    transform: var(--translate-50-50);
+    text-align: var(--txt-center);
+}
+
+.card:hover .card-body{
+    opacity: 1;
 }
 
 .container {
@@ -39,6 +54,32 @@
 
 }
 
-div {
-    display: inline-block;
+.card-body {
+    display: flex;
+    justify-content: var(--center-pos);
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #008CBA;
+}
+
+.button {
+    color: rgb(15, 28, 39);
+    box-sizing: border-box;
+    width: 150px;
+    margin: 60px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    border-style: none;
+    border-radius: 15px;
+
 }
