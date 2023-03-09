@@ -10,7 +10,7 @@ import Icons from './components/pages/Icons'
 
 function App() {
   return (
-    <Router basename='react-built-portfolio'>
+    <Router>
       <div>
         <Header />
         {/* Wrap Route elements in a Routes component */}
