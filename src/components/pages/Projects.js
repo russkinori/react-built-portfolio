@@ -7,7 +7,7 @@ function Projects({ project }) {
   }
   return (
     <div className="card col-lg-5 col-sm-10">
-      <img src={project.image} className="card-img" alt={project.title} />
+      <img src={project.image} className="card-img" alt={project.title} target="_blank" />
       <div className="card-header"><h3>{project.title}</h3></div>
       <div className="card-body">
         <section className="description">{project.description}</section>
