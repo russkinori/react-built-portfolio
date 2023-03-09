@@ -10,11 +10,11 @@ import Icons from './components/pages/Icons'
 
 function App() {
   return (
-    <Router>
+    <Router basename="react-built-portfolio">
       <div>
         <Header />
         {/* Wrap Route elements in a Routes component */}
-        <Routes basename="react-built-portfolio">
+        <Routes>
           <Route path="react-built-portfolio/" element={<Home />} />
           <Route path="react-built-portfolio/resume" element={<Resume />} />
           {/* Define a route that will have descendant routes */}
