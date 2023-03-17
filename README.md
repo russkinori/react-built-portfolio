@@ -10,3 +10,7 @@ npm i react-router-dom
 npm i react-bootstrap bootstrap
 npm i gh- pages
 npm run deploy
+
+## Credits
+
+https://www.youtube.com/watch?v=fuGu-Ponjf8

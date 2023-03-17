@@ -11,9 +11,9 @@ function Resume() {
           <h1>Russel Richard</h1>
           <h2>Front-End Web Developer</h2>
           <ul>
-            <li>Email: jane.doe@example.com</li>
-            <li>GitHub: github.com/janedoe</li>
-            <li>Portfolio: janedoe.com</li>
+            <li>Email: russel.richard@hotmail.com</li>
+            <li>GitHub: github.com/russkinori</li>
+            <li>Portfolio: </li>
           </ul>
         </header>
         <section className="summary row">
@@ -57,25 +57,24 @@ function Resume() {
         <section className="experience row">
           <h2>Experience</h2>
           <h3>Front-End Developer - Personal Project</h3>
-          <p>January 2022 - Present</p>
+          <p>September 2022 - Present</p>
           <ul>
-            <li>Developed a responsive web application using React and styled-components</li>
-            <li>Implemented user authentication and authorization using Firebase Authentication</li>
-            <li>Integrated third-party APIs such as OpenWeatherMap and Mapbox to provide additional functionality</li>
+            <li>Developed a responsive web application using HTML, CSS, JavaScript, React, NodeJS and styled-components</li>
+            <li>Integrated third-party APIs such as Adzuna and Pixaby to provide additional functionality</li>
             <li>Designed and implemented UI components to ensure consistency and improve user experience</li>
-            <li>Deployed the application to GitHub Pages</li>
+            <li>Deployed the applications to GitHub Pages</li>
           </ul>
         </section>
         <section className="education row">
           <h2>Education</h2>
-          <h3>Frontend Web Development Bootcamp - XYZ Academy</h3>
-          <p>September 2021 - December 2021</p>
+          {/* <h3>Frontend Web Development Bootcamp - </h3>
+          <p>November 2022 - March 2023</p>
           <ul>
-            <li>Learned HTML, CSS, JavaScript, React, and Git through hands-on projects and exercises</li>
+            <li>Learned web development technologies through hands-on projects and exercises</li>
             <li>Developed a portfolio of web applications to showcase skills and experience</li>
             <li>Participated in group projects to develop teamwork and collaboration skills</li>
             <li>Received certificate of completion</li>
-          </ul>
+          </ul> */}
         </section>
       </div>
     </div>

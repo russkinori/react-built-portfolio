@@ -1,7 +1,7 @@
 {
   "name": "russ-portfolio",
   "version": "0.1.0",
-  "homepage": "https://russkinori.github.io/react-built-portfolio",
+  "homepage": "https://russkinori.github.io/react-built-portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",

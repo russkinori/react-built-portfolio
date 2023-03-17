@@ -1,11 +1,11 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/pages/Header';
 import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
 import ProjectGallery from './components/pages/ProjectGallery';
 import Contact from './components/pages/Contact';
-import Icons from './components/pages/Icons'
+
 
 
 function App() {
