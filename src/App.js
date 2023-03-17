@@ -10,7 +10,7 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
-    <Router basename="react-built-portfolio">
+    <Router basename="/">
       <div>
         <Header />
         {/* Wrap Route elements in a Routes component */}
